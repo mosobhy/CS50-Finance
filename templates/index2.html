@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    index
+{% endblock %}
+
+{% block main %}
+
+    <h1></h1></br>
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Symbol</th>
+          <th scope="col">Name</th>
+          <th scope="col">Shares</th>
+          <th scope="col">Price</th>
+          <th scope="col">Cash Owned</th>
+        </tr>
+      </thead>
+      <tbody>
+            <tr>
+              <td>NONE</td>
+              <td>NONE</td>
+              <td>NONE</td>
+              <td>NONE</td>
+              <td>{{ cash }}</td>
+            </tr>
+      </tbody>
+    </table>
+
+
+{% endblock %}
